@@ -7,7 +7,7 @@ install:
 
 build:
   ci:
-    - docker build -f docker/Dockerfile-cents -t centos .
+    - docker build -f docker/Dockerfile-centos -t centos .
     - docker build -f docker/Dockerfile-bot -t amazone .
 
   on_success:
