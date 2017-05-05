@@ -3,12 +3,12 @@ galaxy_info:
   description: https://github.com/YasushiKobayashi/
 
   license: apache
-  
+
   platforms:
     - name: Amazon
     - name: EL
-     versions:
-      - 6
+      versions:
+        - 6
 
   galaxy_tags: []
     - apache
