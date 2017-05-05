@@ -1,8 +1,8 @@
 galaxy_info:
   author: Yasushi Kobayashi
   description: https://github.com/YasushiKobayashi/
-
   license: apache
+  min_ansible_version: 1.9
 
   platforms:
     - name: Amazon
