@@ -9,6 +9,6 @@ dependencies:
 
 test:
   override:
-    - ansible-playbook -i hosts bot_master.yml --syntax-check
+    - ansible-playbook main.yml --syntax-check
     - ansible-lint main.yml
     - exit 0
